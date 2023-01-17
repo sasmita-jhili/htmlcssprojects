@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Asssignment1 | FlexBox</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- cusotm font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container flex">
+        <div class="brand_name">Dashboard</div>
+        <nav class="nav">
+          <a href="#"><i class="fa-regular fa-bell"></i></a>
+          <a href="#">
+            <span>Srash Jone</span>
+            <i class="fa-solid fa-user"></i>
+          </a>
+        </nav>
+      </div>
+    </header>
+    <main class="container flex padding">
+      <aside class="sidebar">
+        <nav class="sidebar_nav">
+          <a href="#">
+            <i class="fa-solid fa-list"></i>
+            <span>Dashboard</span>
+          </a>
+          <a class="active" href="#">
+            <i class="fa-regular fa-file-lines"></i>
+            <span>Article</span></a
+          >
+          <a href="#">
+            <i class="fa-sharp fa-solid fa-chart-simple"></i>
+            <span>Analytics</span></a
+          >
+          <a href="#">
+            <i class="fa-regular fa-envelope"></i>
+            <span>Inbox</span></a
+          >
+          <a href="#">
+            <i class="fa-solid fa-gear"></i>
+            <span>setting</span>
+          </a>
+        </nav>
+        <button class="logout_btn">Logout</button>
+      </aside>
+      <article class="article">
+        <div class="article_div">
+          <img src="assets/media/pexels-pixabay-459203.jpg" />
+          <h1 class="article_heading">Stay Motivate Always</h1>
+          <p>
+            “If you want to be happy, set a goal that commands your thoughts,
+            liberates your energy and inspires your hopes.” – Andrew Carnegie.
+            When we are faced with difficult times as we are now with the
+            effects of a worldwide pandemic, it is easy to get discouraged and
+            lose hope. Hope is a vital component of human existence, and it is
+            needed to find happiness and peace during times that might otherwise
+            lead us to be discouraged. As Andrew Carnegie so clearly pointed
+            out, setting a goal can keep your thoughts focused, direct your
+            energy, and inspire the hope that is needed to move through and
+            beyond a moment of despair.
+          </p>
+          <button class="article_btn">Learn More..</button>
+        </div>
+      </article>
+    </main>
+    <footer class="footer">
+      <div class="container flex">
+        <h2 class="footer_heading">&copy; copyright 2022</h2>
+        <nav>
+          <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+          <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

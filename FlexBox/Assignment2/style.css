@@ -1,0 +1,252 @@
+/*css resets code statrs from here */ 
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+/* css resets ends here   */
+
+/* costum style start   */
+
+::before,
+::after {
+  box-sizing: border-box;
+}
+.body {
+  font-size: 1rem;
+  font-family: sans-serif;
+  line-height: 1.7;
+}
+.container {
+  max-width: 1330px;
+  margin: 0 auto;
+  padding: 0 80px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.padding{
+    padding-top: 60px;
+}
+.header{
+    background-color: rgb(1, 33, 80);
+    font-size: 32px;
+    padding:16px 0;    
+    color: white;
+}
+.nav{
+    padding-bottom: 8px;
+}
+.nav a{
+text-decoration: none;
+color: white;
+font-size: 20px;
+margin-left: 10px;
+}
+.nav a i{
+    vertical-align: middle;
+}
+.nav a span{
+    margin-right: 12px;
+    vertical-align: middle;
+    font-size: medium;
+}
+.sidebar{
+    background-color: rgb(173, 229, 252);
+    padding: 32px ;
+    flex: 0 1 20%;
+    align-self: stretch;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sidebar_nav{
+    display: flex;
+    flex-direction: column;
+  }
+.sidebar_nav a {
+    text-decoration: none;
+    color: rgb(19, 4, 82);
+    font-weight: 700;
+    padding: 16px;
+
+}
+.sidebar_nav a i {
+vertical-align: middle;
+margin-right: 12px;
+}
+.sidebar_nav .active{
+border: 2px solid rgb(224, 12, 12);
+color:rgb(224, 12, 12);
+border-radius: 5px;
+}
+.article{
+    flex: 0 1 70%;
+    background-color: rgb(250, 252, 251);
+    border-radius: 6px;
+    border: 1px solid #e7eeea;
+
+}
+.article img{
+    width: 100%;
+    /* height:330px;
+    width:650px; */
+    border-radius: 8px;
+    /* padding: 40px; */
+    
+}
+.article_heading{
+    font-size: 40px;
+    color: rgb(19, 4, 82);
+    padding: 30px 0 ;
+
+}
+.article p{
+    font-size: large;
+    font-weight: 100;
+    line-height: 1.5;
+    color: rgb(19, 4, 82);
+    margin-bottom: 20px;
+
+}
+.article_div{
+    padding: 32px;
+
+}
+.logout_btn{
+    background-color: white;
+    border: 0;
+    border-radius: 4px;
+    height: 40px;
+    font-size: medium;
+    font-weight: 700;
+}
+.article_btn{
+    background-color: green;
+    color: white;
+    font-size: small;
+    font-weight: 400;
+    border: 0;
+    border-radius: 4px;
+    height: 40px;
+    width: 130px;
+}
+.footer{
+    background-color:  rgb(1, 33, 80);
+    padding: 20px 0;  
+    font-size: 20px;
+    margin-top: 40px;
+    height: 30px;
+  }
+  .footer a{
+  font-size: 20px;
+  text-decoration: none;
+  margin-left: 10px;
+  color: white
+  }
+  .footer_heading{
+    color: white;
+  }

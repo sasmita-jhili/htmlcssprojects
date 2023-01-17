@@ -1,0 +1,213 @@
+/* css resets code statrs from here  */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+/* css resets ends here   */
+
+body {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+.header {
+  background-color: rgb(9, 190, 136);
+  height: 60px;
+  line-height: 60px;
+  position: fixed;
+  width:100%;
+  
+}
+.brand_name {
+  float: left;
+  font-size: 3rem;
+  color: rgb(10, 48, 2);
+}
+.nav {
+  float: right;
+}
+.nav a {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  margin-left: 1rem;
+}
+.article {
+  background-color: rgb(226, 248, 243);
+  padding-top: 120px;
+}
+.article-heading {
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+}
+.article-text {
+  font-size: 1rem;
+  list-style: 1.7;
+}
+.article_image {
+  width: 100%;
+  /* border: 1px solid #56592C; */
+  border-radius: 12px;
+}
+.col {
+  float: left;
+  width: 48%;
+  padding-right: 14px;
+}
+.gallery{
+    padding: 5rem 0;
+}
+.gallery img{
+    width:100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.col-1-3{
+    width: 30%;
+    float: left;
+    margin:1.5%;
+}
+.footer{
+    background-color: rgb(9, 190, 136);
+    padding: 16px 0;
+    text-align: center;
+}
+footer a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    margin:16px;
+}
+.top_btn{
+    display:inline-block;
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(243, 189, 138);
+    position: fixed;
+    right: 32px;
+    bottom: 32px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: black;
+    font-size: 24px;
+    /* text-decoration:uppercase; */
+    /* text-decoration: none;    */
+}

@@ -1,0 +1,259 @@
+/* css resets code statrs from here  */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+/* css resets ends here   */
+
+/* variables */
+:root {
+  --primary: #28cab5;
+  --secondary: #69c6ba;
+  --text-dark: black;
+  --text-light: #e6e6e6;
+}
+* {
+  box-sizing: border-box;
+}
+main {
+  position: relative;
+}
+body {
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.container {
+  max-width: 1370;
+  margin: 0 auto;
+  padding: 0 90px;
+}
+.padding{
+  padding: 2rem 0;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-35 {
+  flex: 0 1 35%;
+}
+.flex-30 {
+  flex: 0 1 30%;
+}
+.flex-20 {
+  flex: 0 1 20%;
+}
+
+/* buttton section */
+.btn {
+  padding: 0.8rem 2rem;
+  border: 3rem;
+  border-radius: 4rem;
+  color: white;
+  background-color: #ec7048;
+  font-size: 1.2rem;
+}
+
+/* header section.... */
+.header {
+  padding: 0.7rem 0;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 0.7rem 1.4rem rgb(0 0 0 / 20%);
+}
+.logo {
+  /* margin-right: auto; */
+  font-size: 1.5rem;
+  color: #635551;
+  font-weight: 800;
+}
+.navbar a {
+  margin-left: 2rem;
+  font-size: 1.2rem;
+  color: #10221b;
+}
+.navbar .a:hover {
+  color: crimson;
+}
+/* home section .... */
+.home {
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url("./assets/media/hero-bg.jpg");
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+  object-fit: cover;
+  color: white;
+  position: relative;
+  z-index: -1;
+}
+
+.home-container {
+  padding-top: 160px;
+}
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.home-container p {
+  font-size: 1.4rem;
+}
+.company-feature{
+  position: absolute;
+}
+.home-article {
+  /* padding: 1rem; */
+  width: 100%;
+}
+.first-article {
+  background-color: #ea5433;
+  color: white;
+  padding: 2rem;
+  margin-top: 7rem;
+}
+.subheading {
+  font-size: 2rem;
+}
+.first-article p {
+  margin-top: 1.7rem;
+}
+.home-btn{
+  text-align: center;
+  padding-top: 2rem;
+}
+.second-article{
+  background-color: white;
+  color: black;
+  padding: 3rem 1.5rem;
+  border-radius: 0.3rem;
+  margin-top: 7rem;
+  box-shadow: 0 0 1rem 0.2rem rgb(0 0 0 / 10%);
+}
+.second-article i{
+  color: #ea5433;
+  font-size: 2rem;
+}
+.i-tag{
+  text-align: center;
+  padding: 1rem;
+}
+.article-heading{
+  font-size: 1.2rem;
+  /* font-weight: 600; */
+  margin: 2rem 0;
+}
+.second-article p{
+font-size: 0.9rem;
+}
+/* about section.... */
